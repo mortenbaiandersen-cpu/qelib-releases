@@ -3,8 +3,6 @@
 qeLib is a library of quantitative finance analytics, used from Excel or from
 Python. This repository is where its releases will be published.
 
-**There is no release yet.** The first version will be 0.1.0.
-
 ## What it covers
 
 - Discount, projection, survival and recovery curves, with CDS, OIS,
