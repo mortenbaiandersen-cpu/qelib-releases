@@ -34,10 +34,12 @@ For commercial licenses, please see contact details below.
 
 ## SPI
 
-qeLib uses the SPI runtime libraries, which are under the LGPL. The SPI source
-that qeLib builds on is public at
-[mortenbaiandersen-cpu/spi](https://github.com/mortenbaiandersen-cpu/spi), on the
-branch `qelib`. Each release will name the exact commit it was built from.
+qeLib uses the runtime libraries of SPI
+([PeterTaylor2/spi](https://github.com/PeterTaylor2/spi)), which are under the
+LGPL, unmodified and as separate shared libraries that you may replace. Each
+release will name the SPI commit its libraries were built from, and keep it as
+the tag `qelib-X.Y.Z` in
+[mortenbaiandersen-cpu/spi](https://github.com/mortenbaiandersen-cpu/spi).
 
 ## Contact
 
