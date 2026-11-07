@@ -17,8 +17,7 @@ Python. This repository is where its releases will be published.
 - Foreign exchange options on a smile calibrated to market quotes.
 - Government bonds and bills: yields, prices, curves fitted to them, and their
   values and risk.
-- The regulatory capital of securitisation positions, and the significant risk
-  transfer tests.
+- Analytics for Significant Risk Transfer securitisations.
 
 Every function is available as `qeLib.<Service>.<Name>`, in both Excel and
 Python.
@@ -33,6 +32,7 @@ Python.
 
 qeLib's source code is private. Each release will be published here under
 qeLib's developer license, with an evaluation license so that anyone can try it.
+For commercial licenses, please see contact details below.
 
 ## SPI
 
