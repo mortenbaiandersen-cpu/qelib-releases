@@ -37,9 +37,8 @@ For commercial licenses, please see contact details below.
 qeLib uses the runtime libraries of SPI
 ([PeterTaylor2/spi](https://github.com/PeterTaylor2/spi)), which are under the
 LGPL, unmodified and as separate shared libraries that you may replace. Each
-release will name the SPI commit its libraries were built from, and keep it as
-the tag `qelib-X.Y.Z` in
-[mortenbaiandersen-cpu/spi](https://github.com/mortenbaiandersen-cpu/spi).
+release will name the SPI commit its libraries were built from, and publish
+that commit's source beside its other files, as `spi-source-COMMIT.zip`.
 
 ## Contact
 
