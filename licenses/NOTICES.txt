@@ -1,0 +1,95 @@
+qeLib - third-party notices
+===========================
+
+qeLib is proprietary software, licensed under the qeLib developer license
+(qeLib-Developer-License.txt in this directory). It contains, or is
+distributed with, the third-party software below, each under its own
+license, whose text is in this directory.
+
+SPI runtime libraries (Sartorial Programming Interface)
+    Copyright (C) 2012-2023 Sartorial Programming Ltd.
+    License:  GNU Lesser General Public License, version 2.1 or (at your
+              option) any later version - LGPL-2.1.txt. Distributed
+              WITHOUT ANY WARRANTY; see the license for details.
+    In:       the SPI runtime libraries beside qeLib's own: spi-100,
+              spi-util-100, spi-100-py*, spi-100-xl15 and xlcall32
+              (Windows); libspi-100, libspi-util-100, libspi-100-py*
+              (Linux). They are built without curl, so they can't read
+              objects from URLs; qeLib never does.
+    qeLib uses these as separate shared libraries, which you may replace
+    with versions you have modified and built yourself. They are built
+    from SPI's own source (https://github.com/PeterTaylor2/spi), unmodified.
+    Each release's notes name the commit, and its source is published
+    with the release, as spi-source-COMMIT.zip beside the other files at
+    https://github.com/mortenbaiandersen-cpu/qelib-releases/releases. It is
+    also available from qeLib's distributor on request, for at least three
+    years after the release.
+
+ISDA CDS Standard Model, version 1.8.3
+    This application is based on the ISDA CDS Standard Model (version
+    1.8.3), developed and supported in collaboration with Markit Group Ltd.
+    Copyright (C) 2009 International Swaps and Derivatives Association, Inc.
+    License:  ISDA CDS Standard Model Public License 1.0 -
+              ISDA-CDS-Standard-Model-Public-License-1.0.txt
+    In:       qeLib's IsdaCds service and the services built on it.
+
+HiGHS, version 1.15.1, with its IPX, BASICLU and cuPDLP-C solvers
+    Copyright (c) 2026 HiGHS
+    License:  MIT - HiGHS-LICENSE.txt
+    In:       qeLib's mixed integer programming (the SRT service's pool
+              and tranche selection).
+  HiGHS's LP file reader
+    Copyright (c) 2020 Michael Feldmeier
+    License:  MIT - HiGHS-filereaderlp-LICENSE.txt
+  pdqsort, as used by HiGHS
+    Copyright (c) 2021 Orson Peters
+    License:  zlib - pdqsort-license.txt
+
+Monocypher, as vendored in qeLib
+    Copyright (c) 2017-2023 Loup Vaillant and contributors
+    License:  2-clause BSD (Monocypher is dual-licensed, BSD-2-Clause or
+              CC0-1.0) - Monocypher-LICENCE.md
+    In:       qeLib's license check (every service).
+
+zlib, version 1.3.2
+    Copyright (C) 1995-2026 Jean-loup Gailly and Mark Adler
+    License:  zlib - zlib-license.txt
+    In:       SPI's runtime libraries.
+
+Boost (a subset of its headers, in SPI's spi_boost)
+    License:  Boost Software License 1.0, which does not require this
+              notice in binary distributions.
+
+Excel zip only: the log tool, spi_log_to_excel.exe
+    The tool turns the logs that the add-in's Start Logging writes into
+    workbooks. PyInstaller packages it as the program and, beside it, the
+    folder spi_log_to_excel_files. Besides SPI's runtime and replay
+    libraries (LGPL-2.1, above), which are separate files in that folder
+    that you may replace, the folder holds:
+  Python, version 3.13, with the libraries of its Windows build that the
+  tool uses (OpenSSL, bzip2, xz, mpdecimal, expat) and Microsoft's C
+  runtime
+    Copyright (c) 2001 Python Software Foundation; All Rights Reserved.
+    License:  PSF License Version 2, and the licenses of the libraries it
+              includes - Python-LICENSE.txt
+  openpyxl, version 3.1.5
+    Copyright (c) 2010 openpyxl
+    License:  MIT - openpyxl-LICENCE.rst
+  et_xmlfile, version 2.0.0
+    License:  MIT, with code from Python's standard library under the PSF
+              License - et_xmlfile-LICENCE.rst, et_xmlfile-LICENCE.python
+  pywin32, version 312
+    Copyright (c) 1994-2008, Mark Hammond
+    License:  a BSD-style license - pywin32-license.txt
+  PyInstaller's bootloader, version 6.22.3
+    Copyright (c) 2010-2023, PyInstaller Development Team
+    License:  GPL-2.0-or-later, with an exception that allows the
+              bootloader in programs distributed under other licenses -
+              PyInstaller-COPYING.txt
+
+Linux wheel only: system libraries
+    The Linux wheel (manylinux_2_28) bundles, in qelib.libs, the shared
+    library of the build image (AlmaLinux 8) that SPI's runtime needs and
+    the manylinux standard doesn't provide: libuuid. Its package, version
+    and license are listed in linux-system-libraries/PACKAGES.txt, with the
+    package's license texts beside it.
