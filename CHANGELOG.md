@@ -3,6 +3,15 @@
 Each qeLib release, newest first. While the major version is 0, a minor
 release may change interfaces; a patch release only fixes.
 
+## 0.1.0.post1 - 2026-11-10
+
+The 0.1.0 wheels again, with only their metadata corrected: from PyPI, the
+Linux wheel wouldn't install, PyPI having taken the Windows wheel's Python
+3.13 requirement for every 0.1.0 file. Both wheels now require Python 3.13 or
+later, their tags saying which Python each is for. The library is unchanged,
+and still reports version 0.1.0; the files on the GitHub Release were never
+affected.
+
 ## 0.1.0 - 2026-11-10
 
 The first release of qeLib, a library of quantitative finance analytics for
