@@ -11,8 +11,8 @@ Python. This repository is where its releases are published.
 - Copulas, recovery models and loss distributions for credit tranches, with
   base correlations calibrated to tranche quotes or expected losses, and
   options on CDS indices.
-- Caps, floors, swaptions and CMS, on flat volatilities or SABR, and Bermudan
-  swaptions.
+- Caps, floors, swaptions and CMS, on flat volatilities or SABR, Bermudan
+  swaptions, range accruals, and callable notes and cancellable swaps.
 - Foreign exchange options on a smile calibrated to market quotes.
 - Government bonds and bills: yields, prices, curves fitted to them, and their
   values and risk. Classic term repos and general collateral repos on them.
@@ -25,8 +25,9 @@ Python.
 
 - The Excel add-in for 64-bit Excel on Windows, with the log tool, which
   turns a log of qeLib calls into a workbook.
-- Python wheels for Python 3.13 on 64-bit Windows and Python 3.14 on x86-64
-  Linux.
+- Python wheels for Python 3.13 on 64-bit Windows, Python 3.14 on x86-64
+  Linux, and, from 0.2.0, Python 3.14 on macOS 11 or later, on Apple Silicon
+  or Intel.
 - The User Guide.
 - Example workbooks.
 
