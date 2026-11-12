@@ -32,6 +32,14 @@ ISDA CDS Standard Model, version 1.8.3
     License:  ISDA CDS Standard Model Public License 1.0 -
               ISDA-CDS-Standard-Model-Public-License-1.0.txt
     In:       qeLib's IsdaCds service and the services built on it.
+    Modified: by qeLib, so that the model is safe to call from several
+              threads at once. The model's holiday cache and date text
+              buffers are kept for each thread. A cache of the last date
+              converted is removed. A global switch that turned off the
+              order check in the binary searches is removed, and the calls
+              that turned it off use the fast searches instead. No result
+              of the model changes. Each change is marked "qeLib:" in the
+              source.
 
 HiGHS, version 1.15.1, with its IPX, BASICLU and cuPDLP-C solvers
     Copyright (c) 2026 HiGHS
