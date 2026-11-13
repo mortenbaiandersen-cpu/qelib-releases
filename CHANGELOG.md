@@ -3,6 +3,19 @@
 Each qeLib release, newest first. While the major version is 0, a minor
 release may change interfaces; a patch release only fixes.
 
+## 0.3.0 - 2026-11-13
+
+### Interface changes
+
+- **`Data.Cds`, `Data.NthToDefault`, `Data.IndexCdo`, `Data.BespokeCdo` and
+  `Data.BespokeCds` no longer keep holiday calendar names.** Nothing used
+  them: these instruments' dates are already adjusted. Their constructors
+  lose their last input, `holidays`, and the types the field. The
+  `makeStandard` functions still take the names and the calendars, to
+  adjust the dates. Objects saved by 0.2.0 still load, without the names.
+  `Data.IndexCds` keeps its names, which options on it use for their
+  settlement and strike conversion.
+
 ## 0.2.0 - 2026-11-12
 
 ### Interface changes
