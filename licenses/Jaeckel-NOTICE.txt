@@ -1,0 +1,28 @@
+Let's be rational (www.jaeckel.org/LetsBeRational.7z)
+======================================================================================
+Copyright © 2013-2024 Peter Jäckel.
+
+Permission to use, copy, modify, and distribute this software is freely granted,
+provided that this notice is preserved.
+
+WARRANTY DISCLAIMER
+The Software is provided "as is" without warranty of any kind, either express or implied,
+including without limitation any implied warranties of condition, uninterrupted use,
+merchantability, fitness for a particular purpose, or non-infringement.
+======================================================================================
+
+Implied normal volatility (www.jaeckel.org/ImpliedNormalVolatility.7z)
+======================================================================================
+Copyright © 2022 Peter Jäckel.
+
+Permission to use, copy, modify, and distribute this software is freely granted,
+provided that this notice is preserved.
+
+WARRANTY DISCLAIMER
+The Software is provided "as is" without warranty of any kind, either express or implied,
+including without limitation any implied warranties of condition, uninterrupted use,
+merchantability, fitness for a particular purpose, or non-infringement.
+======================================================================================
+
+The error functions in Let's be rational (erf_cody.cpp) are translated from W. J. Cody's
+Fortran in netlib's specfun (www.netlib.org/specfun/erf).
